@@ -1,0 +1,60 @@
+header,
+main,
+section,
+footer,
+div,
+aside {
+    border: 1px solid blueviolet
+}
+
+main {
+    display: flex;
+}
+
+section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+}
+
+aside {
+    flex-basis: 30%;
+}
+
+footer,
+header,
+aside,
+.container1_1,
+.container1_2,
+.container2,
+.maincontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container,
+.container1 {
+    display: flex;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.maincontainer {
+    flex-grow: 1;
+}
+
+.container1_1,
+.container1_2 {
+    flex-basis: 50%;
+}
+
+.container1,
+.container2,
+header,
+footer {
+    height: 15vh;
+}
